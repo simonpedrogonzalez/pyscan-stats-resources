@@ -2,18 +2,18 @@
 
 This repository provides **updated examples** for using the **[pyscan-stats](https://pypi.org/project/pyscan-stats/)** package, a fork from the original **[pyscan](https://github.com/michaelmathen/pyscan)** library by Michael Matheny.
 
-🧠 Original documentation:  
-👉 https://mmath.dev/pyscan/index.html
+Original documentation:  
+https://mmath.dev/pyscan/index.html
 
 ---
 
 ## Contents
 
-- ✅ **Updated examples** (in both Python scripts and Jupyter notebooks)  
+- **Updated examples** (in both Python scripts and Jupyter notebooks)  
   Located in [`examples_with_data/`](examples_with_data/)
-- 📂 **Data archives** (`.zip`) included for each example — no external downloads required
-- 📚 **Archived original Sphinx documentation** preserved in [`docs/`](docs/) and [`doc_src/`](doc_src/)
-- 🔧 Ready-to-use `pyproject.toml` with dependencies
+- **Data** (`.zip`) included for each example — no external downloads required
+- **Original Sphinx documentation** preserved in [`docs/`](docs/) and [`doc_src/`](doc_src/)
+- Ready-to-use `pyproject.toml` with dependencies
 
 ---
 
