@@ -7,7 +7,7 @@ This repository provides **updated examples** for using the **[pyscan-stats](htt
 
 ---
 
-## What's in This Fork
+## Contents
 
 - ✅ **Updated examples** (in both Python scripts and Jupyter notebooks)  
   Located in [`examples_with_data/`](examples_with_data/)
