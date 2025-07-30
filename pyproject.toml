@@ -12,5 +12,6 @@ dependencies = [
     "pyqt6>=6.9.1",
     "shapely>=2.1.1",
     "xarray>=2025.1.1",
-    "h5netcdf>=1.6.3"
+    "h5netcdf>=1.6.3",
+    "pyscan-stats>=1.0.0",
 ]

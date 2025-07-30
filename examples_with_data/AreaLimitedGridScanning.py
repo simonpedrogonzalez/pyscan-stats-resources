@@ -55,8 +55,8 @@ def plot_result(b_arr, m_arr, extents, rect=None, rect2=None):
 
 
 
-ds_october = xr.open_dataset(f"data/pm_utah_2016_october.nc")
-ds_january = xr.open_dataset(f"data/pm_utah_2016_january.nc")
+ds_october = xr.open_dataset(f"examples_with_data/data/pm_utah_2016_october.nc")
+ds_january = xr.open_dataset(f"examples_with_data/data/pm_utah_2016_january.nc")
 
 max_slice = min(len(ds_october.x), len(ds_october.y))
 # max_slice = 100
@@ -71,7 +71,7 @@ grid = pyscan.Grid(unique_xs, unique_ys, m_arr, b_arr)
 
 disc_f = pyscan.RKULLDORF
 
-max_area = 750 # given by the number of cells incldued
+max_area = 760 # given by the number of cells incldued
 
 print('Limited grid size run...')
 t0 = time.time()
@@ -108,4 +108,4 @@ print('Time in seconds:', (t1-t0))
 rect2 = grid.toRectangle(subgrid)
 
 plot_result(ds_january.value.values, ds_october.value.values, extents, rect, rect2)
-print('Done.')
+print('done')
