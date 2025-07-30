@@ -1,3 +1,5 @@
+# Unzip utah.zip in examples_with_data/data
+
 import pyscan
 import matplotlib.pyplot as plt
 import numpy as np
@@ -71,7 +73,7 @@ grid = pyscan.Grid(unique_xs, unique_ys, m_arr, b_arr)
 
 disc_f = pyscan.RKULLDORF
 
-max_area = 760 # given by the number of cells incldued
+max_area = 750 # given by the number of cells incldued
 
 print('Limited grid size run...')
 t0 = time.time()
