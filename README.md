@@ -23,3 +23,11 @@ https://mmath.dev/pyscan/index.html
 1. Install [uv](https://github.com/astral-sh/uv) (if not already): `pip install uv`
 2. Create the virtual environment and install dependencies: `uv sync`
 3. Run the examples.
+
+## 🛠️ Need Help?
+
+Feel free to reach out:
+
+📧 simon.pedro.g@gmail.com  
+🐙 [GitHub Issues](https://github.com/simonpedrogonzalez/pyscan-stats-resources/issues)
+
