@@ -485,12 +485,14 @@ wheels = [
 
 [[package]]
 name = "pyscan-stats"
-version = "1.0.0"
+version = "1.0.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/39/36/4187a5bc4d19327f3215743a0c647b16c443a82a22a54c052fcca4de9f0e/pyscan_stats-1.0.0.tar.gz", hash = "sha256:3a3cb4f674921aae1b0252a0abeb68b46f33582592cdfb26e54667b4d63728e1", size = 1501716 }
+sdist = { url = "https://files.pythonhosted.org/packages/55/7e/40c75b453998ebcaf253ec6fd75a6486b57a2fd574164e1b1834600abeac/pyscan_stats-1.0.1.tar.gz", hash = "sha256:ef362891326ccabe8c601ab5b910ead259784fc54a3ab9e6e24678b42151198e", size = 14321075 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f8/7b/9719a02cc796fed2b87ae2790082429eaea4a6d007641e80ac7ae504a012/pyscan_stats-1.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:fb5de22609caddcf8338455f55bbdb71bb555071a449d1b32bcbcfad23d91131", size = 2402920 },
-    { url = "https://files.pythonhosted.org/packages/74/41/17bf06c183fd50c70e23bf174ec896c811d514c3ea1a924b9e3dbfc7c695/pyscan_stats-1.0.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a2dd7dbdfa3426468114cfea295eb35d14509724903d0a6d0f02084b73c34fdc", size = 2403691 },
+    { url = "https://files.pythonhosted.org/packages/b4/1c/9363732b1729d9ecccc8d7307c61db642416234eb786a70fef69b97a822c/pyscan_stats-1.0.1-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:3b4b4a8e35ba1c45936f3c37688a9f222777835b2e9bb399102f531a75f8cee0", size = 1737616 },
+    { url = "https://files.pythonhosted.org/packages/eb/a7/3b54a91c4eca25970c792af6ced2de8a201b3293d56c5693d2862e23465f/pyscan_stats-1.0.1-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:f8b19f65672a1301bb7b06cd43542c259312d1a9b414385bd6868ed3d6976244", size = 2250195 },
+    { url = "https://files.pythonhosted.org/packages/8f/d2/fcdf61641a08e2ac25627219fc78aece5c1ad8b7dcc03e76710399f9d09f/pyscan_stats-1.0.1-cp313-cp313-macosx_14_0_arm64.whl", hash = "sha256:84a1ce6d0b53f287082620bcfb8b4e57288c6db6f089e23dd027629bd9dcd33c", size = 1737698 },
+    { url = "https://files.pythonhosted.org/packages/d2/fb/eda58d2ac0a11eb0a3f50b5512a553d7db6249c007366cf72487117f5f85/pyscan_stats-1.0.1-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:5220c5563ed6f38a8c6a730824ac281a4d3bb94af5c1cc865b61a2ae8674c3fb", size = 2250535 },
 ]
 
 [[package]]
@@ -517,7 +519,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.3.1" },
     { name = "pandas", specifier = ">=2.3.1" },
     { name = "pyqt6", specifier = ">=6.9.1" },
-    { name = "pyscan-stats", specifier = ">=1.0.0" },
+    { name = "pyscan-stats", specifier = ">=1.0.1" },
     { name = "shapely", specifier = ">=2.1.1" },
     { name = "xarray", specifier = ">=2025.1.1" },
 ]
