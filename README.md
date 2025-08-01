@@ -10,8 +10,8 @@ https://mmath.dev/pyscan/index.html
 ## Contents
 
 - **Updated examples** (in both Python scripts and Jupyter notebooks)
-- **Data** (`.zip`) included for each example — no external downloads required
-- **Original Sphinx documentation** preserved in [`docs/`](docs/) and [`doc_src/`](doc_src/)
+- **Data** (`.zip`) included for each example, no external downloads required
+- **Original Sphinx docs** preserved in [`docs/`](docs/) and [`doc_src/`](doc_src/)
 - Ready-to-use `pyproject.toml` with dependencies
 
 ---
@@ -20,6 +20,6 @@ https://mmath.dev/pyscan/index.html
 
 ### 1. Setup Environment
 
-Install [uv](https://github.com/astral-sh/uv) (if not already): `pip install uv`
-Then create the virtual environment and install dependencies: `uv sync`
-Run the examples.
+1. Install [uv](https://github.com/astral-sh/uv) (if not already): `pip install uv`
+2. Create the virtual environment and install dependencies: `uv sync`
+3. Run the examples.
