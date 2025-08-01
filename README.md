@@ -9,8 +9,7 @@ https://mmath.dev/pyscan/index.html
 
 ## Contents
 
-- **Updated examples** (in both Python scripts and Jupyter notebooks)  
-  Located in [`examples_with_data/`](examples_with_data/)
+- **Updated examples** (in both Python scripts and Jupyter notebooks)
 - **Data** (`.zip`) included for each example — no external downloads required
 - **Original Sphinx documentation** preserved in [`docs/`](docs/) and [`doc_src/`](doc_src/)
 - Ready-to-use `pyproject.toml` with dependencies
