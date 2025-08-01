@@ -1,4 +1,4 @@
-# pyscan-stats Resources – Updated Examples & Archived Docs
+# pyscan-stats Resources – Updated Examples
 
 This repository provides **updated examples** for using the **[pyscan-stats](https://pypi.org/project/pyscan-stats/)** package, a fork from the original **[pyscan](https://github.com/michaelmathen/pyscan)** library by Michael Matheny.
 
