@@ -18,11 +18,27 @@ https://mmath.dev/pyscan/index.html
 
 ## Example Setup with uv
 
-### 1. Setup Environment
+### 1. Setup Environment (Python scripts)
 
-1. Install [uv](https://github.com/astral-sh/uv) (if not already): `pip install uv`
-2. Create the virtual environment and install dependencies: `uv sync`
-3. Run the examples.
+1. Install [uv](https://github.com/astral-sh/uv).
+2. Create the virtual environment and install dependencies with `uv sync`, activate it with `source .venv/bin/activate`.
+3. Unzip the example data files you wish to use.
+4. Run the example code.
+
+Example:
+
+```shell
+git clone https://github.com/simonpedrogonzalez/pyscan-stats-resources.git
+cd pyscan-stats-resources
+uv sync
+source .venv/bin/activate
+cd data
+unzip utah.zip
+cd ..
+python 8_AreaLimitedGridScanning.py
+```
+
+NOTE: Jupyter notebooks are also available.
 
 ## 🛠️ Need Help?
 
