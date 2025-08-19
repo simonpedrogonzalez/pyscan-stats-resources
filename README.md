@@ -38,6 +38,8 @@ cd ..
 python 8_AreaLimitedGridScanning.py
 ```
 
+![](docs/Figure_1.png "Optional title")
+
 NOTE: Jupyter notebooks are also available.
 
 ## 🛠️ Need Help?
