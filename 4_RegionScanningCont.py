@@ -87,7 +87,6 @@ alpha = 0.2        # spatial error
 r_min = 0.4 # 0.4        # min radius (24 miles)
 r_max = 4.0        # max radius (240 miles)
 
-print("HERE")
 # This takes a while
 disk, value = pyscan.max_disk_region(
     regions, regions,

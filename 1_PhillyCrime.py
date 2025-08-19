@@ -22,7 +22,7 @@ dtype = {
 }
 
 df = pd.read_csv(
-    "data/phila_crime_incidents.csv/phila_crime_incidents.csv",
+    "data/phila_crime_incidents.csv",
     dtype=dtype
 )
 
